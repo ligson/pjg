@@ -108,6 +108,8 @@ public class JLine extends JFrame {
 			xPoints[xIdx] = x;
 			yPoints[xIdx] = x;
 			xIdx++;
+			int currentX = i+getWidth()/2;
+			
 			g.drawLine(xNum, yNum, xNum+1, yNum+1);
 		}
 		
