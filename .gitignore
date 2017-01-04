@@ -14,4 +14,5 @@ hs_err_pid*
 .settings
 .classpath
 .project
-/pom.xml
+.idea/
+*.iml
